@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+
+  <body>
+
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/icons8-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/icons8-search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/icon.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/icons8-video-upload-32.png">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/icons8-apps-50.png">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/icons8-notification-50.png">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/icons-home.png">
+        <div class="icon-names">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/icons8-compass-30.png">
+        <div class="icon-names">Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/icons8-video-playlist-50.png">
+        <div class="icon-names">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/icons8-youtube-50.png">
+        <div class="icon-names">Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/icons8-youtube-music-50.png">
+        <div class="icon-names">YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/icons8-video-gallery-64.png">
+        <div class="icon-names">Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=n2RNcPRtAiY&pp=ygUyVGFsa2luZyBUZWNoIGFuZCBBSSB3aXRoIEdvb2dsZSBDRU8gU3VuZGFyIFBpY2hhaSE%3D">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=mP0RAo9SKZk&pp=ygUdVHJ5IE5vdCBUbyBMYXVnaCBDaGFsbGVuZ2UgIzk%3D">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Try Not To Laugh Challenge #9
+              </p>
+              <p class="video-author">
+                Markiplier
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=FgjPQQeTh1w&pp=ygUsQ3JhenkgVGlrIFRva3MgVGFrZW4gTW9tZW50cyBCZWZvcmUgRElTQVNURVI%3D">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+              <p class="video-author">
+                SSSniperWolf
+              </p>
+              <p class="video-stats">
+                12M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=094y1Z2wpJg&pp=ygU_VGhlIFNpbXBsZXN0IE1hdGggUHJvYmxlbSBObyBPbmUgQ2FuIFNvbHZlIC0gQ29sbGF0eiBDb25qZWN0dXJl">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">
+                Veritasium
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=86CQq3pKSUw&pp=ygUyS2FkYW5lJ3MgQWxnb3JpdGhtIHRvIE1heGltdW0gU3VtIFN1YmFycmF5IFByb2JsZW0%3D">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">
+                CS Dojo
+              </p>
+              <p class="video-stats">
+                519K views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+        
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=yXWw0_UfSFg&pp=ygUyIEFueXRoaW5nIFlvdSBDYW4gRml0IEluIFRoZSBDaXJjbGUgSeKAmWxsIFBheSBGb3I%3D">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=2AYs7Y4rd9c">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq720.webp">
+            <div class="video-time">15:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                "ХОРОШО, ЧТО ЭТО ТРЕНИРОВКА" / ПОДГОТОВКА К ИГРЕ НА ВЫЛЕТ
+              </p>
+              <p class="video-author">
+                Lebwa
+              </p>
+              <p class="video-stats">
+                6.9k views &#183; 10 hours ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+      
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=ttwPX0Y9zds">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+            <div class="video-time">37:33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Johan - super bunny man
+              </p>
+              <p class="video-author">
+                JOHAN CHILL
+              </p>
+              <p class="video-stats">
+                322k views &#183; 4 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=VLnqSf4B9xk"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Bad Boombox - Medulla (Official Audio)
+              </p>
+              <p class="video-author">
+                Bad Boombox
+              </p>
+              <p class="video-stats">
+                541k views &#183; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+    
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Guns N' Roses - Welcome To The Jungle
+              </p>
+              <p class="video-author">
+                Guns N' Roses
+              </p>
+              <p class="video-stats">
+                558m views &#183; 13 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=l482T0yNkeo&pp=ygUPaGlnaHdheSB0byBoZWxs"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                AC/DC - Highway to Hell (álbum completo)
+              </p>
+              <p class="video-author">
+                AC/DC
+              </p>
+              <p class="video-stats">
+                298m views &#183; 10 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=ZhIsAZO5gl0&pp=ygUYaSB3YXMgbWFkZSBmb3IgbG92aW4geW91"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kiss - I Was Made For Lovin' You
+              </p>
+              <p class="video-author">
+                KISS
+              </p>
+              <p class="video-stats">
+                579m views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=nU1VfYYKMDk&pp=ygUKc3BpZGVyYmFpdA%3D%3D"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-13.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-13.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Spiderbait - Black Betty (Official Video)
+              </p>
+              <p class="video-author"> 
+                Spiderbait
+              </p>
+              <p class="video-stats">
+                46m views &#183; 13 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=pAgnJDJN4VA&pp=ygUNYmFjayB0byBibGFjaw%3D%3D"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-14.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                AC/DC - Back In Black (Official Video)
+              </p>
+              <p class="video-author">
+                AC/DC
+              </p>
+              <p class="video-stats">
+                951m views &#183; 10 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=v2AC41dglnM&pp=ygUNdGh1bmRlcnN0cnVjaw%3D%3D"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-15.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                AC/DC - Thunderstruck (Official Video)
+              </p>
+              <p class="video-author">
+                AC/DC
+              </p>
+              <p class="video-stats">
+                1.2B views &#183; 10 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href="https://www.youtube.com/watch?v=YlUKcNNmywk&pp=ygVLUmVkIEhvdCBDaGlsaSBQZXBwZXJzIC0gQ2FsaWZvcm5pY2F0aW9uIChPZmZpY2lhbCBNdXNpYyBWaWRlbykgW0hEIFVQR1JBREVd"> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-16.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-16.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Red Hot Chili Peppers - Californication (Official Music Video) [HD UPGRADE]
+              </p>
+              <p class="video-author">
+                Red Hot Chili Peppers
+              </p>
+              <p class="video-stats">
+                1B views &#183; 13 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+      <a style="text-decoration:none;" href=""> 
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-17.webp">
+            <div class="video-time">5:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-17.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Metallica: Master of Puppets (Official Lyric Video)
+              </p>
+              <p class="video-author">
+                Metallica
+              </p>
+              <p class="video-stats">
+                9.1m views &#183; 11 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> 
+    
+      
+
+    </div>
+
+    <div class="spreed-button">
+      <img class="icons8-expand-arrow" src="icons/icons8-expand-arrow-50.png" alt="expand arrow">
+    </div>
+
+  </body>
+</html>
